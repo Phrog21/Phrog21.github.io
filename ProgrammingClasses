@@ -2,6 +2,11 @@
 <html>
 <head>
 	<title>HTML Table Generator</title> 
+        <meta name="Brodey McNeil" content="CWI Student" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="CWI Student, software app designer, Boise, Idaho"/>
+        <meta name="keywords" content="UX UI software programming"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<style>
 		table {
 			border:1px solid #b3adad;
