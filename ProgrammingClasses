@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Table Generator</title> 
+	<style>
+		table {
+			border:1px solid #b3adad;
+			border-collapse:collapse;
+			padding:5px;
+		}
+		table th {
+			border:1px solid #b3adad;
+			padding:5px;
+			background: #f0f0f0;
+			color: #313030;
+		}
+		table td {
+			border:1px solid #b3adad;
+			text-align:left;
+			padding:5px;
+			background: #ffffff;
+			color: #313030;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th>Header 1</th>
+				<th>Header 2</th>
+				<th>Header 3</th>
+				<th>Header 4</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>SWDV-105<br></td>
+				<td>&nbsp;Introduction to Programming</td>
+				<td>&nbsp;C#</td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+			<tr>
+				<td>SWDV-110</td>
+				<td>&nbsp;Intermediate Programming</td>
+				<td>&nbsp;C#</td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+			<tr>
+				<td>SWDV-115<br></td>
+				<td>&nbsp;Introduction to Web Application Development</td>
+				<td>&nbsp;HTML5/CSS3 GitHub </td>
+				<td>&nbsp;Hybrid</td>
+			</tr>
+			<tr>
+				<td>SWDV-140<br></td>
+				<td>&nbsp;Intermediate Web Application Development</td>
+				<td>&nbsp;JavaScript</td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+			<tr>
+				<td>SWDV-143<br></td>
+				<td>&nbsp;Client Side Frameworks </td>
+				<td>&nbsp;Vue &amp; React</td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+			<tr>
+				<td>SWDV-152<br></td>
+				<td>&nbsp;Systems Analysis and Design</td>
+				<td>&nbsp;Development Life
+Cycle &amp; AWS </td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+			<tr>
+				<td>SWDV-210<br></td>
+				<td>&nbsp;Introduction to Server Side Programming</td>
+				<td>&nbsp;PHP</td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+			<tr>
+				<td>SWDV-220<br></td>
+				<td>&nbsp;Fundamentals of Database Systems </td>
+				<td>&nbsp;SQL</td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+			<tr>
+				<td>SWDV-235<br></td>
+				<td>&nbsp;Advanced Web Application Development </td>
+				<td>&nbsp;ASP.NET</td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+			<tr>
+				<td>SWDV-265<br></td>
+				<td>&nbsp;Mobile Development </td>
+				<td>&nbsp;React Native</td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+			<tr>
+				<td>SWDV-271<br></td>
+				<td>&nbsp;Game Development</td>
+				<td>&nbsp;Unity </td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+			<tr>
+				<td>SWDV-280<br></td>
+				<td>&nbsp;Collaborative Development
+</td>
+				<td>&nbsp;N/A</td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+			<tr>
+				<td>SWDV-293<br></td>
+				<td>&nbsp;Internship</td>
+				<td>&nbsp;N/A</td>
+				<td>&nbsp;Hyflex</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
