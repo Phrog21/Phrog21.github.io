@@ -1,0 +1,19 @@
+<!--Brodey McNeil
+November 8th, 2022-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Boilerplate</title>
+        <meta name="Brodey McNeil" content="CWI Student" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="CWI Student, software app designer, Boise, Idaho"/>
+        <meta name="keywords" content="UX UI software programming"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+    </head>
+    <body>
+        <img src="XMLCode.svg">
+    </body>
+
+
+</html>
