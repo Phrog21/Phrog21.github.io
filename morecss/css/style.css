@@ -1,0 +1,32 @@
+/*Brodey McNeil
+November 9th, 2022*/
+p
+{
+    color:darkred;
+    font-size: large;
+    text-align: center;
+}
+
+h1, h2, h3
+{
+    text-align: center;
+}
+
+.intro{
+    font-size: larger;
+}
+
+.strong{
+    color: rosybrown
+}
+
+.alert{
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.bottom{
+    background: blue;
+}
