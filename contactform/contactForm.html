@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<!-- Brodey McNeil
+     November 14th, 2022 -->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Brodey McNeil" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Brodey McNeil web developer Boise Idaho" />
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:brodeymcneil@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+        <legend>How do I contact you?</legend>
+            <!-- Company Select Box, page 97 -->
+            <div>
+                <label for="company_name">Company:</label><br>
+                <input type="text" name="company_name" id="company_name" placeholder="Company name here" />
+            </div>
+            <!-- Person to Contact Select Box, page 97 -->
+            <div>
+                <label for="contact">Person to contact:</label><br>
+                <input type="text" name="contact" id="contact" placeholder="Contact here"/>
+            </div>
+            
+            <div>
+                <label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="Your Email" required/>
+
+            </div>
+
+            <div>
+                <label for="phone_number">Phone Number:</label> <input type="tel" name="phone_number" id="phone_number" placeholder="xxx-xxx-xxxx" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+            </div>
+        </fieldset>
+
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <!-- Select Box, page 98 -->
+            <select name="opportunities-available">
+                <option value="Internship">Internship</option>
+                <option value="Paid Internship">Paid Internship</option>
+                <option value="Part Time Work">Part Time Work</option>
+                <option value="Full Time Work">Full Time Work</option>
+            </select>
+            <!-- Radio Buttons, page 99 -->
+            <p>How did you find me?</p>
+            <input type="radio" name="find" id="linkedin" value="LinkedIn"/> <label for="linkedin">LinkedIn</label>
+            <input type="radio" name="find" id="job-fair" value="Job Fair"/> <label for="job-fair">Job Fair</label>
+            <input type="radio" name="find" id="cwi-corporate-partner" value="CWI Corporate Partner"/> <label for="cwi-corporate-partner">CWI Corporate Partner</label>
+
+            <div>
+                <textarea name="description" id="description" cols="119" rows="11" placeholder="Enter a more detailed description of opportunity here"></textarea>
+                
+
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+    </body>
+</html>
