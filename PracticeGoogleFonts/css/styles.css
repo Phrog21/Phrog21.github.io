@@ -1,0 +1,8 @@
+/* Practice CustomFonts Style Sheet */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Sono:wght@400;700&display=swap');
+.websafe{
+    font-family: 'Open Sans', sans-serif;
+}
+.google {
+    font-family: 'Sono', sans-serif;
+}
