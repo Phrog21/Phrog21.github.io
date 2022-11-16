@@ -1,0 +1,52 @@
+
+a.button1, a.button2, a.button3, a.button4 {
+    
+    display: block;
+    background: rgb(97, 0, 0);
+    border: black;
+    color: white;
+    padding: 15px;
+    margin: 45px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    float:left;
+    width: 200px;
+
+
+}
+
+a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
+    background-color: rgb(150, 0, 0);
+}
+
+img{
+    float: left;
+    margin-left: 40px;
+}
+
+footer{
+    float: left;
+    margin-left: 550px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.github{
+    color: white
+}
+body{
+  background-color: black
+}
+p{
+    color: white;
+    font-size: 1.25rem;
+    margin: auto;
+    width: 600px;
+    padding:25px;
+    
+}
