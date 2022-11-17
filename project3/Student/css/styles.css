@@ -1,0 +1,64 @@
+
+/*Brodey McNeil, November 17th*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+#outerwrapper {	
+
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	max-width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+}
+#outerwrapper img:first-child{
+	float: left;
+	border-radius: 50%;
+}
+
+body{
+	background-image: url(../image/jewelry.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+footer{
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 15px;
+}
+main{
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: white;
+	
+}
+
+.addrightmargin{
+	margin-right: 10%;
+}
+
+ul:first-child{
+	list-style-type: none;
+	font-size: 1.5em;
+	float: none;
+	text-align: left;
+}
+
+h1{
+	font-size: 4em;
+	font-family: 'Pacifico', cursive;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	font-style: italic;
+}
