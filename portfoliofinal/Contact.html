@@ -1,0 +1,69 @@
+<body>
+    <header role="banner">
+        <nav role="main">
+            <img src="Images/Portfolio Banner (2) (3).png" alt="website header"/>
+            <link rel="stylesheet" type="text/css" href="css/style.css"/>
+                <a class="button1" href="Index.html">Home</a>
+                <a class="button2" href="About.html">About Me</a>
+                <a class="button3" href="Experience.html">My Experience</a>
+                <a class="button4" href="Contact.html">Contact Me</a>
+            
+        </nav>
+        </header>
+
+    <main>
+        <h2>Hire Me</h2>
+
+        <p>I am planning to attend a 4-year university and <b>graduate in the summer of 2025.</b> Contact me at
+            <u>brodeymcneil21@gmail.com</u> or by phone: <u>(603) 583-8258</u> to discuss employment opportunities at your
+            company. </p>
+
+            <hr>
+
+            <form action="mailto:brodeymcneil@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+                <fieldset>
+                <legend>How do I contact you?</legend>
+                <div>
+                    <label for="company_name">Company:</label><br>
+                    <input type="text" name="company_name" id="company_name" placeholder="Company name here">
+                </div>
+                <div>
+                    <label for="contact">Person to contact:</label><br>
+                    <input type="text" name="contact" id="contact" placeholder="Contact here">
+                </div>
+                <div>
+                    <label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="Your Email" required="">
+    
+                </div>
+                <div>
+                    <label for="phone_number">Phone Number:</label> <input type="tel" name="phone_number" id="phone_number" placeholder="xxx-xxx-xxxx" required="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <select name="opportunities-available">
+                <option value="Internship">Internship</option>
+                <option value="Paid Internship">Paid Internship</option>
+                <option value="Part Time Work">Part Time Work</option>
+                <option value="Full Time Work">Full Time Work</option>
+            </select>
+            <p>How did you find me?</p>
+            <input type="radio" name="find" id="linkedin" value="LinkedIn">
+            <label for="linkedin">LinkedIn</label>
+            <input type="radio" name="find" id="job-fair" value="Job Fair">
+            <label for="job-fair">Job Fair</label>
+            <input type="radio" name="find" id="cwi-corporate-partner" value="CWI Corporate Partner">
+            <label for="cwi-corporate-partner">CWI Corporate Partner</label>
+            <div>
+                <textarea name="description" id="description" cols="90" rows="11" placeholder="Enter a more detailed description of opportunity here"></textarea>
+            </div>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit" class="btn">
+    </main>
+    <footer>
+        <hr>
+        <p>Find me on <a href="https://github.com/Phrog21">Github</a></p>
+    </footer>
+</body>
+</html>

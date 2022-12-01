@@ -1,0 +1,53 @@
+
+a.button1, a.button2, a.button3, a.button4 {
+    background: rgb(97, 0, 0);
+    color: white;
+    padding: 15px;
+    width: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    width: 200px;
+}
+
+a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
+    background-color: rgb(150, 0, 0);
+}
+
+header{
+  color: white;
+  font-size: 1.25rem;
+  margin: auto;
+  width: 600px;
+  padding:25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+body{
+    color: white;
+    font-size: 1.25rem;
+    margin: auto;
+    width: 750px;
+    background-color: black;
+}
+
+.pricebox {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    width: 25%;
+}
+
+.pricebox h4.price {
+    background:rgb(150, 0, 0);
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+footer {
+    clear: left;
+}
